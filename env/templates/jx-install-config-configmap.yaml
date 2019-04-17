@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQOOZPKaEX/AtCzIl/a9i+6zANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyQ4M2JjOTZmZC0zMGMxLTRhN2MtYjdkNC1hN2Y0Y2EyMWRkZWYw
+    HhcNMTkwNDE3MDgzMjQ0WhcNMjQwNDE1MDkzMjQ0WjAvMS0wKwYDVQQDEyQ4M2Jj
+    OTZmZC0zMGMxLTRhN2MtYjdkNC1hN2Y0Y2EyMWRkZWYwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQCgVWv45k3cH9WC5gad/gwnTWoWI5OvAQxh9sJxH5ZS
+    rDfKmwVG/IvBU7nj6Qyl4ltGyMF5X3rit+amZI0S8bLbxn1ySz2rBS3mDIjmXugc
+    oQQNru1GUqpgswUHyo1pEHjOhbqbBynraDDmSoCePR8F21pGNal7j0C9dWC1StK9
+    j3gMa/JNGiNqmopleVktJXgPseVnr48uV/D91ulkfaoZhoOyuaz1WahHctOM5lMq
+    823ABMZPdEIqD2F5MSKMaQ7I457sqyCIWAnZZkNDUWHZ4LxqiAHT/CDg8yVTfUEf
+    7bTzbtr9yATH5cu5z0WNRheZIVaRC0Pq/EfRx42S10aXAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBQ
+    pKdguN71Gk0LYV2PkZtPz5HH0aDsR07k7GkrKDOIuMMZ2Ses7xZ9Nv6e00HDs8hL
+    kPf3pq8oKq5xB+t1c140oG8IZ+Iot1jTAT1BYRc3wGdU5bxmGWYrfqyy+9HVQHYc
+    4tux8d+b71KTF06Ljd7uiJMVw1pp9OAaZm1tGRMGpuIMFX4H2YTCsKSN4BEmwEaZ
+    cBa3QpoYQ6kfC+LbVtyHPD60Vlj0ULCDzNGKcccU54m6UAvd5Y3sOc3N71ffVtyC
+    Ar5cvSoBEA5fghEvrKd6G3tubzeUn9/tr3n+LaPllebpjz2ii7J7pHQPigN3y4it
+    zONQ7AHu+7cjPNcj2V+G
+    -----END CERTIFICATE-----
+  clusterName: pmuir-dev-ng
+  jx-install-version: 1.3.980-dev+b435e2b38
+  kubeProvider: gke
+  projectID: apps-dev-229310
+  region: ""
+  secretsLocation: vault
+  server: https://35.195.72.132
+  systemVaultName: jx-vault-pmuir-dev-ng
+  zone: europe-west1-c
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
